@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aditya Degree College | Bhimavaram</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">🎓 Aditya Degree College</div>
+
+  <div class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#groups">Groups</a>
+    <a href="#faculty">Faculty</a>
+    <a href="#students">Students</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+
+<!-- HERO -->
+<section id="home" class="hero">
+
+  <div class="hero-content">
+
+    <div class="badge">✨ WELCOME TO ADITYA DEGREE COLLEGE ✨</div>
+
+    <h1>Aditya Degree College</h1>
+
+    <h2>Bhimavaram</h2>
+
+    <p>
+      Learn • Grow • Innovate • Achieve
+    </p>
+
+    <div class="hero-buttons">
+      <button onclick="scrollToSection('courses')">
+        Explore Courses
+      </button>
+
+      <button class="second-btn"
+              onclick="scrollToSection('students')">
+        Student Database
+      </button>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ABOUT -->
+<section class="about">
+
+  <div class="section-title">
+    <span>ABOUT US</span>
+    <h2>About Our College</h2>
+  </div>
+
+  <p>
+    Aditya Degree College provides students with an environment
+    for academic learning, practical knowledge, technical skills,
+    communication development and overall growth.
+  </p>
+
+</section>
+
+
+<!-- COURSES -->
+<section id="courses" class="courses">
+
+  <div class="section-title">
+    <span>ACADEMICS</span>
+    <h2>Our Courses</h2>
+  </div>
+
+  <div class="course-grid">
+
+    <div class="course-card purple">
+      <div class="card-icon">🤖</div>
+      <h3>B.Sc AI</h3>
+      <p>Artificial Intelligence</p>
+      <button onclick="showCourse('B.Sc AI')">
+        View Details
+      </button>
+    </div>
+
+    <div class="course-card blue">
+      <div class="card-icon">💻</div>
+      <h3>B.Sc CS</h3>
+      <p>Computer Science</p>
+      <button onclick="showCourse('B.Sc CS')">
+        View Details
+      </button>
+    </div>
+
+    <div class="course-card cyan">
+      <div class="card-icon">📊</div>
+      <h3>B.Sc DS</h3>
+      <p>Data Science</p>
+      <button onclick="showCourse('B.Sc DS')">
+        View Details
+      </button>
+    </div>
+
+    <div class="course-card orange">
+      <div class="card-icon">🖥️</div>
+      <h3>BCA CS</h3>
+      <p>Computer Applications</p>
+      <button onclick="showCourse('BCA CS')">
+        View Details
+      </button>
+    </div>
+
+    <div class="course-card pink">
+      <div class="card-icon">📈</div>
+      <h3>BBA</h3>
+      <p>Business Administration</p>
+      <button onclick="showCourse('BBA')">
+        View Details
+      </button>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- GROUPS -->
+<section id="groups" class="groups">
+
+  <div class="section-title">
+    <span>DEPARTMENTS</span>
+    <h2>Groups & Subjects</h2>
+  </div>
+
+  <div class="group-grid">
+
+    <div class="group-card">
+      <span>🤖</span>
+      <h3>B.Sc AI</h3>
+      <p>Artificial Intelligence Group</p>
+
+      <ul>
+        <li>Artificial Intelligence</li>
+        <li>CFOT</li>
+        <li>Mathematics</li>
+        <li>English</li>
+        <li>Telugu</li>
+      </ul>
+    </div>
+
+    <div class="group-card">
+      <span>💻</span>
+      <h3>B.Sc CS</h3>
+      <p>Computer Science Group</p>
+
+      <ul>
+        <li>Computer Science</li>
+        <li>Programming</li>
+        <li>Mathematics</li>
+        <li>English</li>
+        <li>Telugu</li>
+      </ul>
+    </div>
+
+    <div class="group-card">
+      <span>📊</span>
+      <h3>B.Sc DS</h3>
+      <p>Data Science Group</p>
+
+      <ul>
+        <li>Data Science</li>
+        <li>Statistics</li>
+        <li>Programming</li>
+        <li>Mathematics</li>
+        <li>English</li>
+      </ul>
+    </div>
+
+    <div class="group-card">
+      <span>🖥️</span>
+      <h3>BCA CS</h3>
+      <p>Computer Applications</p>
+
+      <ul>
+        <li>Computer Applications</li>
+        <li>Programming</li>
+        <li>Database</li>
+        <li>Mathematics</li>
+        <li>English</li>
+      </ul>
+    </div>
+
+    <div class="group-card">
+      <span>📈</span>
+      <h3>BBA</h3>
+      <p>Business Administration</p>
+
+      <ul>
+        <li>Business Management</li>
+        <li>Accounting</li>
+        <li>Economics</li>
+        <li>English</li>
+        <li>Business Communication</li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- FACULTY -->
+<section id="faculty" class="faculty">
+
+  <div class="section-title">
+    <span>OUR TEAM</span>
+    <h2>Faculty Members</h2>
+  </div>
+
+  <div class="faculty-grid">
+
+    <div class="faculty-card">
+      <div class="faculty-icon">👨‍💼</div>
+      <h3>Kamalakar Sir</h3>
+      <p>Principal</p>
+    </div>
+
+    <div class="faculty-card">
+      <div class="faculty-icon">👨‍🏫</div>
+      <h3>Tirumularao Sir</h3>
+      <p>English HOD</p>
+    </div>
+
+    <div class="faculty-card">
+      <div class="faculty-icon">👩‍🏫</div>
+      <h3>Bhaya Madam</h3>
+      <p>Telugu</p>
+    </div>
+
+    <div class="faculty-card">
+      <div class="faculty-icon">👩‍🏫</div>
+      <h3>Manoja Madam</h3>
+      <p>Mathematics</p>
+    </div>
+
+    <div class="faculty-card">
+      <div class="faculty-icon">👩‍💻</div>
+      <h3>Ramya Madam</h3>
+      <p>Artificial Intelligence</p>
+    </div>
+
+    <div class="faculty-card">
+      <div class="faculty-icon">👩‍💻</div>
+      <h3>Jaswanthi Madam</h3>
+      <p>CFOT</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- FACILITIES -->
+<section id="facilities" class="facilities">
+
+  <div class="section-title">
+    <span>CAMPUS</span>
+    <h2>College Facilities</h2>
+  </div>
+
+  <div class="facility-grid">
+
+    <div class="facility-card">
+      <span>🔬</span>
+      <h3>Computer Labs</h3>
+      <p>Practical learning environment.</p>
+    </div>
+
+    <div class="facility-card">
+      <span>📚</span>
+      <h3>Library</h3>
+      <p>Learning resources and books.</p>
+    </div>
+
+    <div class="facility-card">
+      <span>🎤</span>
+      <h3>Seminar Hall</h3>
+      <p>Seminars and academic activities.</p>
+    </div>
+
+    <div class="facility-card">
+      <span>🏫</span>
+      <h3>Classrooms</h3>
+      <p>Comfortable learning spaces.</p>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- STUDENT DATABASE -->
+<section id="students" class="students">
+
+  <div class="section-title">
+    <span>DATABASE</span>
+    <h2>Student Management</h2>
+  </div>
+
+  <!-- ADD STUDENT -->
+  <div class="student-form">
+
+    <h3>➕ Add New Student</h3>
+
+    <div class="form-grid">
+
+      <input id="studentName" type="text"
+             placeholder="Student Name">
+
+      <input id="studentSUS" type="text"
+             placeholder="SUS Number">
+
+      <input id="studentCourse" type="text"
+             placeholder="Course">
+
+      <input id="studentYear" type="text"
+             placeholder="Year">
+
+      <input id="studentSection" type="text"
+             placeholder="Section">
+
+      <input id="studentRoll" type="text"
+             placeholder="Roll Number">
+
+    </div>
+
+    <button class="add-btn" onclick="addStudent()">
+      ➕ Add Student
+    </button>
+
+  </div>
+
+
+  <!-- SEARCH -->
+  <div class="search-area">
+
+    <input
+      id="studentSearch"
+      type="text"
+      placeholder="🔍 Search Name / SUS / Roll..."
+      onkeyup="searchStudent()"
+    >
+
+  </div>
+
+
+  <!-- TABLE -->
+  <div class="table-wrapper">
+
+    <table>
+
+      <thead>
+
+        <tr>
+          <th>S.No</th>
+          <th>Name</th>
+          <th>SUS</th>
+          <th>Course</th>
+          <th>Year</th>
+          <th>Section</th>
+          <th>Roll</th>
+          <th>Actions</th>
+        </tr>
+
+      </thead>
+
+      <tbody id="studentTable"></tbody>
+
+    </table>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+
+  <div class="section-title">
+    <span>GET IN TOUCH</span>
+    <h2>Contact Us</h2>
+  </div>
+
+  <div class="contact-box">
+
+    <h3>🎓 Aditya Degree College</h3>
+
+    <p>📍 Bhimavaram, Andhra Pradesh</p>
+
+    <p>🎓 Degree College</p>
+
+    <p>📞 College Office</p>
+
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+  <h2>🎓 Aditya Degree College</h2>
+
+  <p>Bhimavaram</p>
+
+  <p>© 2026 Aditya Degree College</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
